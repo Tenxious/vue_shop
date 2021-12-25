@@ -98,6 +98,7 @@ export default {
     },
     // 点击按钮实现菜单的折叠与展开
     toggleCollapse() {
+      // 展示折叠逻辑
       this.isCollapse = !this.isCollapse
     },
     // 保存链接的激活状态
