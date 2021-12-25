@@ -101,7 +101,7 @@ export default {
       // 展示折叠逻辑
       this.isCollapse = !this.isCollapse
     },
-    // 保存链接的激活状态
+    // 保存链接的激活状态  始终保存
     saveNavState(activePath) {
       window.sessionStorage.setItem('activePath', activePath)
       this.activePath = activePath
